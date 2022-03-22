@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center bg-blue-600 px-2 py-4">
+  <nav class="flex justify-between items-center bg-blue-600 px-2 py-4" aria-label="NavBar">
     <slot>
       <div>
         <slot name="left" />
