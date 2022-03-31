@@ -1,12 +1,12 @@
 <template>
-  <nav class="flex justify-between items-center bg-blue-600 px-2 py-4" aria-label="NavBar">
+  <nav class="flex w-full justify-between items-center bg-blue-600 px-2 py-4" aria-label="NavBar">
     <slot>
-      <div>
+      <section aria-label="left">
         <slot name="left" />
-      </div>
-      <div>
+      </section>
+      <section aria-label="right">
         <slot name="right" />
-      </div>
+      </section>
     </slot>
   </nav>
 </template>
