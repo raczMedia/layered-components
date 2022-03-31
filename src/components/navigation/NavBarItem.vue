@@ -2,7 +2,7 @@
   <div class="text-gray-800">
     <slot name="before"></slot>
     {{ label }}
-    <slot name="after"></slot>
+    <slot name="after">test</slot>
   </div>
 </template>
 
